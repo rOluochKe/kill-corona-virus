@@ -15,6 +15,7 @@
     "eslint": "^7.26.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.2",
+    "gh-pages": "^3.1.0",
     "jest": "^26.1.0",
     "style-loader": "^1.2.1",
     "stylelint": "^13.13.1",
@@ -30,7 +31,8 @@
     "watch": "webpack --w --mode development",
     "test": "jest",
     "eslint": "npx eslint . --fix",
-    "stylelint": "npx stylelint '**/*.{css,scss}'"
+    "stylelint": "npx stylelint '**/*.{css,scss}'",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
