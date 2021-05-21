@@ -12,7 +12,7 @@ describe('name', () => {
       expect(name.validation).toBeDefined();
     });
     it('should return true when a validation is correct', () => {
-      input.value = 'Julian';
+      input.value = 'Raymond';
       expect(name.validation()).toBeTruthy();
     });
     it('should set input background to red color when a name validation has not passed', () => {
