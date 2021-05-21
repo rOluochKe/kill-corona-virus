@@ -1,6 +1,9 @@
 # Kill Corona Virus
 The game is an RPG Spaceship built on Phase 3, a JavaScript framework.
 
+## Demo Link
+[Link](https://raw.githack.com/rOluochKe/kill-corona-virus/main/dist/index.html) 
+
 ## Resources:
 - HTML
 - CSS
